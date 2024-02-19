@@ -1,0 +1,33 @@
+# Ignore compiled binary files
+/target/
+
+# Ignore any dynamically linked libraries
+**/target/debug/deps/
+**/target/release/deps/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore build artifacts
+*.o
+*.a
+
+# Ignore generated documentation
+/target/doc/
+
+# Ignore environment file
+.env
+
+# Ignore operating system and editor files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore any user-specific settings files
+*.rs.user
